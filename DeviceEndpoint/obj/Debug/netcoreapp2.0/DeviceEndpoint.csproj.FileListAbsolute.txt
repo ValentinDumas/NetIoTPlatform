@@ -1,0 +1,11 @@
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\bin\Debug\netcoreapp2.0\DeviceEndpoint.deps.json
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\bin\Debug\netcoreapp2.0\DeviceEndpoint.runtimeconfig.json
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\bin\Debug\netcoreapp2.0\DeviceEndpoint.runtimeconfig.dev.json
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\bin\Debug\netcoreapp2.0\DeviceEndpoint.dll
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\bin\Debug\netcoreapp2.0\DeviceEndpoint.pdb
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\obj\Debug\netcoreapp2.0\DeviceEndpoint.csproj.CoreCompileInputs.cache
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\obj\Debug\netcoreapp2.0\DeviceEndpoint.AssemblyInfoInputs.cache
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\obj\Debug\netcoreapp2.0\DeviceEndpoint.AssemblyInfo.cs
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\obj\Debug\netcoreapp2.0\DeviceEndpoint.dll
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\obj\Debug\netcoreapp2.0\DeviceEndpoint.pdb
+C:\Users\Spark\source\repos\NETPlatform\DeviceEndpoint\obj\Debug\netcoreapp2.0\DeviceEndpoint.csprojAssemblyReference.cache

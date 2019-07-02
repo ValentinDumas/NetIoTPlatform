@@ -1,0 +1,12 @@
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\bin\Debug\netcoreapp2.0\CalculEngineEndpoint.deps.json
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\bin\Debug\netcoreapp2.0\CalculEngineEndpoint.runtimeconfig.json
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\bin\Debug\netcoreapp2.0\CalculEngineEndpoint.runtimeconfig.dev.json
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\bin\Debug\netcoreapp2.0\CalculEngineEndpoint.dll
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\bin\Debug\netcoreapp2.0\CalculEngineEndpoint.pdb
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\CalculEngineEndpoint.csprojAssemblyReference.cache
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\CalculEngineEndpoint.csproj.CoreCompileInputs.cache
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\CalculEngineEndpoint.AssemblyInfoInputs.cache
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\CalculEngineEndpoint.AssemblyInfo.cs
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\CalculEngineEndpoint.dll
+C:\Users\Spark\source\repos\NETPlatform\CalculEngineEndpoint\obj\Debug\netcoreapp2.0\CalculEngineEndpoint.pdb

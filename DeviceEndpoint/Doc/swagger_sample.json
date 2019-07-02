@@ -1,0 +1,179 @@
+﻿{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "ToDo API",
+    "description": "A simple example ASP.NET Core Web API",
+    "termsOfService": "None",
+    "contact": {
+      "name": "Shayne Boyer",
+      "url": "https://twitter.com/spboyer",
+      "email": ""
+    },
+    "license": {
+      "name": "Use under LICX",
+      "url": "https://example.com/license"
+    }
+  },
+  "paths": {
+    "/api/Device": {
+      "post": {
+        "tags": [ "Device" ],
+        "operationId": "createDevice",
+        "consumes": [ "application/json-patch+json", "application/json", "text/json", "application/*+json" ],
+        "produces": [ "text/plain", "application/json", "text/json" ],
+        "parameters": [
+          {
+            "name": "device",
+            "in": "body",
+            "required": false,
+            "schema": { "$ref": "#/definitions/Device" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": { "type": "string" }
+          }
+        }
+      }
+    },
+    "/api/Device/{deviceId}/Telemetry": {
+      "post": {
+        "tags": [ "Device" ],
+        "operationId": "sendTelemetry",
+        "consumes": [ "application/json-patch+json", "application/json", "text/json", "application/*+json" ],
+        "produces": [ "text/plain", "application/json", "text/json" ],
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "deviceId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": { "type": "string" }
+          }
+        }
+      }
+    },
+    "/api/Values": {
+      "get": {
+        "tags": [ "Values" ],
+        "operationId": "Get",
+        "consumes": [],
+        "produces": [ "text/plain", "application/json", "text/json" ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "uniqueItems": false,
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [ "Values" ],
+        "operationId": "Post",
+        "consumes": [ "application/json-patch+json", "application/json", "text/json", "application/*+json" ],
+        "produces": [],
+        "parameters": [
+          {
+            "name": "value",
+            "in": "body",
+            "required": false,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": { "200": { "description": "Success" } }
+      }
+    },
+    "/api/Values/{id}": {
+      "get": {
+        "tags": [ "Values" ],
+        "operationId": "Get",
+        "consumes": [],
+        "produces": [ "text/plain", "application/json", "text/json" ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": { "type": "string" }
+          }
+        }
+      },
+      "put": {
+        "tags": [ "Values" ],
+        "operationId": "Put",
+        "consumes": [ "application/json-patch+json", "application/json", "text/json", "application/*+json" ],
+        "produces": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "value",
+            "in": "body",
+            "required": false,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": { "200": { "description": "Success" } }
+      },
+      "delete": {
+        "tags": [ "Values" ],
+        "operationId": "Delete",
+        "consumes": [],
+        "produces": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": { "200": { "description": "Success" } }
+      }
+    }
+  },
+  "definitions": {
+    "Device": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "deviceType": {
+          "format": "int32",
+          "enum": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
